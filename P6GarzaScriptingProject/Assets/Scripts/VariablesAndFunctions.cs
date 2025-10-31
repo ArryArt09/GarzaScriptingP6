@@ -6,16 +6,16 @@ public class VariablesAndFunctions : MonoBehaviour
 {
 
     //Create an integer variable.
-    public int MyInt = 5;
+    public int myInt = 5;
 
     // Start is called before the first frame update
     void Start()
     {
         //Running my Integer through a function
-        MyInt = MultiplyByTwo(MyInt);
+        myInt = MultiplyByTwo(myInt);
 
         //Display the result uin the console
-        Debug.log(MyInt);
+        Debug.Log(myInt);
 
     }
 
@@ -29,11 +29,11 @@ public class VariablesAndFunctions : MonoBehaviour
     int MultiplyByTwo(int number)
     {
 
-    //create a results variable
-    int result;
-    result = number * 2;
+        //create a results variable
+        int result;
+        result = number * 2;
 
-    //return the result
-    return result;
+        //return the result
+        return result;
         }
 }
