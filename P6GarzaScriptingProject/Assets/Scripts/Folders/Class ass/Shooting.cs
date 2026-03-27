@@ -30,7 +30,7 @@ public class Shooting : MonoBehaviour
 
     void Shoot ()
     {
-        if (Input.GetButtonDown("Fire1") && inventory.myStuff.bullets > 0)
+        if (Input.GetButton("Fire1") && inventory.myStuff.bullets > 0)
         {
             Rigidbody bulletInstance = Instantiate(bulletPrefab, firePosition.position, firePosition.rotation) as Rigidbody;
             bulletInstance.AddForce(firePosition.forward * bulletSpeed);

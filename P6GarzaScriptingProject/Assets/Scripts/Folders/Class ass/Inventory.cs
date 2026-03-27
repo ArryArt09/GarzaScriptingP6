@@ -35,7 +35,7 @@ public class Inventory : MonoBehaviour
     }
 
     // Creating an instance (an Object) of the Stuff Class
-    public Stuff myStuff = new Stuff(50, 5, 5);
+    public Stuff myStuff = new Stuff(5000, 5, 5);
 
     public Stuff myOtherStuff = new Stuff(50, 1.5f);
 
